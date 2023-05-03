@@ -4,7 +4,6 @@
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
-    background-image: url();
 }
 header{
     background-color: rgb(78, 78, 78);
@@ -133,18 +132,38 @@ footer{
     margin-left: 250px;
     padding-top: 80px;
 }
-img{
-    transform: translateX(50%);
-    opacity: 0;
-    transition: all 500ms;
-}
-.fade{
-    transform: translateX(0);
-    opacity: 1.0;
-    transition: all 500ms;
-}
-@media screen and (max-width: 600px) {
-    .products h1{
-      margin: 0px 0px 100px 200px;
+@media only screen and (max-width: 1200px) {
+    header{
+        width: 500px;
+    }
+    .products img{
+        margin-right: 300px;
+    }
+    footer{
+        height: 550px;
+    }
+    .footer img{
+        position: absolute;
+        margin-left: 100px;
+    }
+    .icons h2{
+        position: relative;
+        margin-right: 350px;
+        margin-top: 200px;
+    }
+    .icons a{
+        position: absolute;
+        display: block;
+        margin-right: 200px;
+    }
+    .icons .fb{
+        position: absolute;
+        margin-top: 60px;
+    }
+    .contacts{
+        position: absolute;
+        margin-right: 700px;
+        margin-top: 95%;
+        padding-right: 300px;
     }
   }
