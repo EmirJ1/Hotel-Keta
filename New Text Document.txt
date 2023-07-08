@@ -1,68 +1,165 @@
-<div class="flex space-x-9 items-center justify-center mt-7">
-    <div class="w-80">
-        <img src="/icons//postim2.jpg">
-        <div class="w-80 h-14 bg-white">
-            <h2 class="font-mono">Fustan Likra Allday</h2>
-            <p>1,500 den</p>
-            <button class="bg-black text-white ml-64 px-2 hover:border-black hover:border-2 hover:bg-white hover:text-black">View</button>
-    </div>
-    </div>
-    <div class="w-80  ">
-        <img src="/icons//postim2.jpg">
-        <div class="w-80 h-14 bg-white">
-            <h2 class="font-mono">Fustan Likra Allday</h2>
-            <p>1,500 den</p>
-            <button class="bg-black text-white ml-64 px-2 hover:border-black hover:border-2 hover:bg-white hover:text-black">View</button>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keta Fashion</title>
+    <link rel="icon" type="x-icon" href="/icons//xicon.jpg">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+
+</head>
+<body class="bg-gray-200">
+    
+    <nav class="flex justify-between items-center bg-white bg-fixed sticky top-0 z-50">
+       <img src="/icons/logo.png" class="ml-9">
+        <ul class="md:flex space-x-9  p-9 text-xl hidden">
+            <a href=""><li class="hover:underline">Home</li></a>
+            <a href=""><li class="hover:underline">About</li></a>
+            <a href=""><li class="hover:underline">Contact</li></a>
+            <a href="/login.html"><button>               
+                <i class='fa fa-user'></i>
+            </button></a>
+        </ul>
+    </nav>
+    <div style="background: url(icons/kryesore2.jpg) no-repeat center center / cover; height: 120vh;">
+            <div class="text-center absolute mt-96 ml-20 ">
+                <h2 class="text-5xl ">Vendi ideal per veshje te bukura!</h2>
+                <button class=" border-2 border-black py-2 px-4 hover:bg-black hover:text-white mt-12 mr-32">View Collection</button>
         </div>
     </div>
-    <div class="w-80  ">
-        <img src="/icons//postim3.jpg">
-        <div class="w-80 h-14 bg-white">
-            <h2 class="font-mono">Fustan Likra Allday</h2>
-            <p>1,500 den</p>
-            <button class="bg-black text-white ml-64 px-2 hover:border-black hover:border-2 hover:bg-white hover:text-black">View</button>
-        </div>
+    <div class="flex items-center justify-center space-x-12">
+        <a href=""><img src="/icons//setrms.png" alt="" class="w-72 opacity-50 hover:opacity-100"></a>
+        <a href=""><img src="/icons//levidor.png" alt="" class="w-72 opacity-50 hover:opacity-100"></a>
+        <a href=""><img src="/icons//alvina.png" alt="" class="w-72 opacity-50 hover:opacity-100"></a>
+        <a href=""><img src="/icons//allday.png" alt="" class="w-72 opacity-50 hover:opacity-100"></a>
+        <a href=""><img src="/icons//puane.png" alt="" class="w-72 opacity-50 hover:opacity-100"></a>
     </div>
-    <div class="w-80 ">
-        <img src="/icons//postim3.jpg">
-        <div class="w-80 h-14 bg-white">
-            <h2 class="font-mono">Fustan Likra Allday</h2>
-            <p>1,500 den</p>
-            <button class="bg-black text-white ml-64 px-2 hover:border-black hover:border-2 hover:bg-white hover:text-black">View</button>
-        </div>
-    </div>
-    </div>
-    <div class="flex space-x-9 items-center justify-center mt-24">
-        <div class="w-80">
-            <img src="/icons//postim2.jpg">
-            <div class="w-80 h-14 bg-white">
-                <h2 class="font-mono">Fustan Likra Allday</h2>
-                <p>1,500 den</p>
-                <button class="bg-black text-white ml-64 px-2 hover:border-black hover:border-2 hover:bg-white hover:text-black">View</button>
-        </div>
-        </div>
-        <div class="w-80  ">
-            <img src="/icons//postim2.jpg">
-            <div class="w-80 h-14 bg-white">
-                <h2 class="font-mono">Fustan Likra Allday</h2>
-                <p>1,500 den</p>
-                <button class="bg-black text-white ml-64 px-2 hover:border-black hover:border-2 hover:bg-white hover:text-black">View</button>
+    <div class="grid lg:grid-cols-4 gap-8">
+            <div class="bg-white shadow-[0px_9px_15px_10px_#00000024]">
+                <img src="/icons//postim2.jpg">    
+                <div class="flex items-center justify-between">     
+                    <h3 class="product-title">Fustan Likra Allday</h3>
+                    <a href="/product-card.html" class="mr-5 border-2 border-black px-2 hover:bg-black hover:text-white">View</a>
+                </div>
+                <p class="mt-2">$19.99</p>
             </div>
-        </div>
-        <div class="w-80  ">
-            <img src="/icons//postim3.jpg">
-            <div class="w-80 h-14 bg-white">
-                <h2 class="font-mono">Fustan Likra Allday</h2>
-                <p>1,500 den</p>
-                <button class="bg-black text-white ml-64 px-2 hover:border-black hover:border-2 hover:bg-white hover:text-black">View</button>
+            <div class="bg-white shadow-[0px_9px_15px_10px_#00000024]">
+                <img src="/icons//postim2.jpg">    
+                <div class="flex items-center justify-between">     
+                    <h3 class="product-title">Fustan Likra Allday</h3>
+                    <a href="/product-card.html" class="mr-5 border-2 border-black px-2 hover:bg-black hover:text-white">View</a>
+                </div>
+                <p class="mt-2">$19.99</p>
             </div>
-        </div>
-        <div class="w-80 ">
-            <img src="/icons//postim3.jpg">
-            <div class="w-80 h-14 bg-white">
-                <h2 class="font-mono">Fustan Likra Allday</h2>
-                <p>1,500 den</p>
-                <button class="bg-black text-white ml-64 px-2 hover:border-black hover:border-2 hover:bg-white hover:text-black">View</button>
+            <div class="bg-white shadow-[0px_9px_15px_10px_#00000024]">
+                <img src="/icons//postim2.jpg">    
+                <div class="flex items-center justify-between">     
+                    <h3 class="product-title">Fustan Likra Allday</h3>
+                    <a href="/product-card.html" class="mr-5 border-2 border-black px-2 hover:bg-black hover:text-white">View</a>
+                </div>
+                <p class="mt-2">$19.99</p>
             </div>
+            <div class="bg-white shadow-[0px_9px_15px_10px_#00000024]">
+                <img src="/icons//postim2.jpg">    
+                <div class="flex items-center justify-between">     
+                    <h3 class="product-title">Fustan Likra Allday</h3>
+                    <a href="/product-card.html" class="mr-5 border-2 border-black px-2 hover:bg-black hover:text-white">View</a>
+                </div>
+                <p class="mt-2">$19.99</p>
+            </div>
+    </div>
+    <div class="grid lg:grid-cols-4 gap-8 mt-12">
+        <div class="bg-white shadow-[0px_9px_15px_10px_#00000024]">
+            <img src="/icons//postim2.jpg">    
+            <div class="flex items-center justify-between">     
+                <h3 class="product-title">Fustan Likra Allday</h3>
+                <a href="/product-card.html" class="mr-5 border-2 border-black px-2 hover:bg-black hover:text-white">View</a>
+            </div>
+            <p class="mt-2">$19.99</p>
+        </div>
+        <div class="bg-white shadow-[0px_9px_15px_10px_#00000024]">
+            <img src="/icons//postim2.jpg">    
+            <div class="flex items-center justify-between">     
+                <h3 class="product-title">Fustan Likra Allday</h3>
+                <a href="/product-card.html" class="mr-5 border-2 border-black px-2 hover:bg-black hover:text-white">View</a>
+            </div>
+            <p class="mt-2">$19.99</p>
+        </div>
+        <div class="bg-white shadow-[0px_9px_15px_10px_#00000024]">
+            <img src="/icons//postim2.jpg">    
+            <div class="flex items-center justify-between">     
+                <h3 class="product-title">Fustan Likra Allday</h3>
+                <a href="/product-card.html" class="mr-5 border-2 border-black px-2 hover:bg-black hover:text-white">View</a>
+            </div>
+            <p class="mt-2">$19.99</p>
+        </div>
+        <div class="bg-white shadow-[0px_9px_15px_10px_#00000024]">
+            <img src="/icons//postim2.jpg">    
+            <div class="flex items-center justify-between">     
+                <h3 class="product-title">Fustan Likra Allday</h3>
+                <a href="/product-card.html" class="mr-5 border-2 border-black px-2 hover:bg-black hover:text-white">View</a>
+            </div>
+            <p class="mt-2">$19.99</p>
+        </div>
+</div>
+    <div class="grid lg:grid-cols-2 gap-8 mt-12">
+        <div>
+            <img src="/icons/postim6.jpg" alt="">
+        </div>
+        <div class="grid grid-cols-2 gap-8">
+        <div class="bg-white">
+            <img src="/icons//postim2.jpg">    
+            <div class="flex items-center justify-between">     
+                <h3 class="product-title">Fustan Likra Allday</h3>
+                <a href="/product-card.html" class="mr-5 border-2 border-black px-2 hover:bg-black hover:text-white">View</a>
+            </div>s
+            <p class="mt-2">$19.99</p>
+        </div>
+        <div class="bg-white">
+            <img src="/icons//postim2.jpg">    
+            <div class="flex items-center justify-between">     
+                <h3 class="product-title">Fustan Likra Allday</h3>
+                <a href="/product-card.html" class="mr-5 border-2 border-black px-2 hover:bg-black hover:text-white">View</a>
+            </div>
+            <p class="mt-2">$19.99</p>
         </div>
         </div>
+    </div>
+    
+<div class="w-full bg-white mt-24 flex flex-col justify-center lg:flex-row items-center">
+    <div class="p-24 ">
+        <img src="/icons//logo.png" alt="" class="w-80">
+    </div>
+    <div class="lg:flex">
+        <div class="">
+        <h2 class="font-mono font-bold text-xl">Monday to Saturday</h2>
+        <p class="text-xl">10:00 AM</p>
+        <p class="text-xl">19:00 PM</p>
+        </div>
+        <div class="">
+            <h2 class="font-mono font-bold text-xl">Sunday</h2>
+            <p>CLOSED</p>
+        </div>
+    </div>
+    <div class=" mt-24">
+        <div>
+        <h2 class="font-mono font-bold text-xl">Our Locations</h2>
+        </div>
+        <a href=""><div class="mt-2 hover:underline">
+            <p class="font-bold">Gostivar</p>
+            <p>Lolla Ribar 82</p>
+        </div></a>
+        <div class="mt-2">
+            <p class="font-bold">Shkup</p>
+            <p>Sheshi Skenderbeu</p>
+        </div>
+        <div class="mt-2">
+            <p class="font-bold">Kumanove</p>
+            <p>L, Orta Bunar</p>
+        </div>
+    </div>
+</div>
+</body>
+</html>
