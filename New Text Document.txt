@@ -128,22 +128,22 @@
         </div>
     </div>
     
-<div class="w-full h-80 bg-white mt-24 lg:flex items-center">
+<div class="w-full bg-white mt-24 flex flex-col justify-center lg:flex-row items-center">
     <div class="p-24 ">
         <img src="/icons//logo.png" alt="" class="w-80">
     </div>
     <div class="lg:flex">
-        <div class="text-center ml-24">
+        <div class="">
         <h2 class="font-mono font-bold text-xl">Monday to Saturday</h2>
         <p class="text-xl">10:00 AM</p>
         <p class="text-xl">19:00 PM</p>
-    </div>
-        <div class="ml-24 text-center">
+        </div>
+        <div class="">
             <h2 class="font-mono font-bold text-xl">Sunday</h2>
             <p>CLOSED</p>
         </div>
     </div>
-    <div class="text-center ml-36 mt-24">
+    <div class=" mt-24">
         <div>
         <h2 class="font-mono font-bold text-xl">Our Locations</h2>
         </div>
