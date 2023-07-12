@@ -10,7 +10,7 @@
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
 
 </head>
-<body class="bg-gray-200">
+<body class="bg-gray-100">
     
     <nav class="flex justify-between items-center bg-white bg-fixed sticky top-0 z-50">
        <img src="/icons/logo.png" class="ml-9">
@@ -18,9 +18,14 @@
             <a href=""><li class="hover:underline">Home</li></a>
             <a href=""><li class="hover:underline">About</li></a>
             <a href=""><li class="hover:underline">Contact</li></a>
+            <div class="items-center flex gap-6">
             <a href="/login.html"><button>               
                 <i class='fa fa-user'></i>
             </button></a>
+            <svg data-aid="icon-bag" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon-hover-classes cursor-pointer">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M14.3404 5H15.5V6.5V14.5V16H14H2H0.5V14.5V6.5V5H1.6756C2.35583 2.13287 4.93284 0 8.00801 0C11.0832 0 13.6602 2.13287 14.3404 5ZM3.23103 5C3.87091 2.97109 5.76766 1.5 8.00801 1.5C10.2484 1.5 12.1451 2.97109 12.785 5H3.23103ZM2 6.5H14V14.5H2V6.5Z" fill="currentColor"></path>
+            </svg>
+        </div>
         </ul>
     </nav>
     <div style="background: url(icons/posta.png) no-repeat center center / cover; height: 80vh;">
@@ -36,24 +41,48 @@
         <a href=""><img src="/icons//allday.png" alt="" class="w-72 opacity-50 hover:opacity-100"></a>
         <a href=""><img src="/icons//puane.png" alt="" class="w-72 opacity-50 hover:opacity-100"></a>
     </div>
-    <div class="flex flex-row">
-        <div class="flex flex-col w-1/2">
-            <div style="background: url(icons/postim3.jpg) no-repeat center center / cover; height: 365px;">
-                <p>\aasdasdasd</p>
+    <div class="grid grid-cols-4 ml-14">
+        <div class="w-72">
+            <div class="relative">
+              <img class="w-80 h-80 object-cover transition-opacity duration-300" src="/icons/postim6.jpg" alt="Foto produkti">
+              <img class="w-80 h-80 object-cover opacity-0 absolute inset-0 transition-opacity duration-300 hover:opacity-100" src="/icons/postim7.jpg" alt="Foto me hover">
             </div>
-        </div>
-        <div class="flex flex-col w-1/2">
-            <div style="background: url(icons/postim1.jpg) no-repeat center center / cover; height: 246px;">
-                <p>\aasdasdasd</p>
+            <div class="p-4 shadow-[0px_6px_6px_0px_#e2e8f0] flex items-center justify-between">
+                <p class="text-gray-600">2,500 den</p>
+                <svg class="h-6 w-6 text-black"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <circle cx="9" cy="19" r="2" />  <circle cx="17" cy="19" r="2" />  <path d="M3 3h2l2 12a3 3 0 0 0 3 2h7a3 3 0 0 0 3 -2l1 -7h-15.2" /></svg>
             </div>
-            <div class="flex flex-col w-1/2">
-                <div style="background: url(icons/kryesore2.jpg) no-repeat center center / cover; height: 365px;">
-                    <p>\aasdasdasd</p>
-                </div>
+          </div>
+          <div class="w-72">
+            <div class="relative">
+              <img class="w-80 h-80 object-cover transition-opacity duration-300" src="/icons/postim6.jpg" alt="Foto produkti">
+              <img class="w-80 h-80 object-cover opacity-0 absolute inset-0 transition-opacity duration-300 hover:opacity-100" src="/icons/postim7.jpg" alt="Foto me hover">
             </div>
-        </div>
+            <div class="p-4 shadow-[0px_6px_6px_0px_#e2e8f0] flex items-center justify-between">
+                <p class="text-gray-600">2,500 den</p>
+                <svg class="h-6 w-6 text-black"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <circle cx="9" cy="19" r="2" />  <circle cx="17" cy="19" r="2" />  <path d="M3 3h2l2 12a3 3 0 0 0 3 2h7a3 3 0 0 0 3 -2l1 -7h-15.2" /></svg>
+            </div>
+          </div>
+          <div class="w-72">
+            <div class="relative">
+              <img class="w-80 h-80 object-cover transition-opacity duration-300" src="/icons/postim6.jpg" alt="Foto produkti">
+              <img class="w-80 h-80 object-cover opacity-0 absolute inset-0 transition-opacity duration-300 hover:opacity-100" src="/icons/postim7.jpg" alt="Foto me hover">
+            </div>
+            <div class="p-4 shadow-[0px_6px_6px_0px_#e2e8f0] flex items-center justify-between">
+                <p class="text-gray-600">2,500 den</p>
+                <svg class="h-6 w-6 text-black"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <circle cx="9" cy="19" r="2" />  <circle cx="17" cy="19" r="2" />  <path d="M3 3h2l2 12a3 3 0 0 0 3 2h7a3 3 0 0 0 3 -2l1 -7h-15.2" /></svg>
+            </div>
+          </div>
+          <div class="w-72">
+            <div class="relative">
+              <img class="w-80 h-80 object-cover transition-opacity duration-300" src="/icons/postim6.jpg" alt="Foto produkti">
+              <img class="w-80 h-80 object-cover opacity-0 absolute inset-0 transition-opacity duration-300 hover:opacity-100" src="/icons/postim7.jpg" alt="Foto me hover">
+            </div>
+            <div class="p-4 shadow-[0px_6px_6px_0px_#e2e8f0] flex items-center justify-between">
+                <p class="text-gray-600">2,500 den</p>
+                <svg class="h-6 w-6 text-black"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <circle cx="9" cy="19" r="2" />  <circle cx="17" cy="19" r="2" />  <path d="M3 3h2l2 12a3 3 0 0 0 3 2h7a3 3 0 0 0 3 -2l1 -7h-15.2" /></svg>
+            </div>
+          </div>
     </div>
-    
 <div class="w-full bg-white mt-24 flex flex-col justify-center lg:flex-row items-center">
     <div class="p-24 ">
         <img src="/icons//logo.png" alt="" class="w-80">
